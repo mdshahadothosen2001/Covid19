@@ -113,7 +113,7 @@ for i in range(s):
 
         
         if check==1:
-            print("\n\nYour Vaccine Code",i)
+            print("\n\nYour Vaccine Card ID",i)
             name=input("Enter your Name            : ")   
             ID=input("Enter your Id              : ")       
             Address=input("Enter your Address         : ")
@@ -137,7 +137,7 @@ for i in range(s):
     elif pressMenu==4:
         CD19[i]=Vaccine()
         print("\n")
-        checkID=int(input("Enter your ID: "))
+        checkID=int(input("Enter your Vaccine Card ID: "))
         CD19[checkID].userDetails()
         print("\n")
     elif pressMenu==0:
